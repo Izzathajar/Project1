@@ -1,0 +1,108 @@
+cmsmap.py https://www.medicalsupermarket.my/ -f W -v -o www.medicalsupermarket.my.txt
+[-] Date & Time: 13/04/2021 10:19:58
+[I] Threads: 5
+[-] Target: https://www.medicalsupermarket.my (110.4.45.23)
+[v] Requesting Not Existing Pages ...
+[v] Checking if the website is in HTTPS ...
+[v] Checking headers ...
+[I] Server: nginx
+[I] X-Powered-By: PHP/7.3.27
+[L] X-Frame-Options: Not Enforced
+[I] Strict-Transport-Security: Not Enforced
+[I] X-Content-Security-Policy: Not Enforced
+[I] X-Content-Type-Options: Not Enforced
+[v] Checking Robots.txt File ...
+[L] Robots.txt Found: https://www.medicalsupermarket.my/robots.txt
+[I] CMS Detection: WordPress
+[v] Checking WordPress version ...
+[I] Wordpress Version: 5.4.4
+[v] Checking WordPress theme ...
+[I] Wordpress Theme: storefront
+[v] Searching vulnerable theme (storefront) from local ExploitDB repository ...
+[v] Checking old WordPress config files ...
+[v] Enumerating Wordpress usernames via "Feed" ...
+[v] Enumerating Wordpress usernames via "Author" ...
+[-] WordPress usernames identified: 
+[M] sunshinegeekmedical
+[v] Checking if XML-RPC services are enabled ...
+[M] XML-RPC services are enabled
+[v] Starting XML-RPC Brute Forcing
+[v] Trying Credentials: sunshinegeekmedical password
+[v] Trying Credentials: sunshinegeekmedical admin
+[v] Trying Credentials: sunshinegeekmedical 123456
+[v] Trying Credentials: sunshinegeekmedical Password1
+[v] Trying Credentials: sunshinegeekmedical sunshinegeekmedical
+[v] Checking XML-RPC Pingback Vulnerability ...
+[v] Checking XML-RPC Brute Force Vulnerability ...
+[M] Website vulnerable to XML-RPC Brute Force Vulnerability
+[v] Checking WordPress forgotten password ...
+[v] Checking Autocomplete Off on the login page ...
+[I] Autocomplete Off Not Found: https://www.medicalsupermarket.my/wp-login.php
+[v] Checking WordPres default files...
+[-] Default WordPress Files:
+[I] https://www.medicalsupermarket.my/wp-includes/ID3/license.commercial.txt
+[v] Checking WordPress plugins in the index page
+[-] Searching Wordpress Plugins ...
+[v] Searching vulnerable plugins from local ExploitDB repository ...
+[I] .
+[M]  EDB-ID: 37753 "WordPress Plugin Simple Image Manipulator 1.0 - Arbitrary File Download"
+[I] elementor
+[I] feed
+[M]  EDB-ID: 38624 "WordPress Plugin WP Feed - 'nid' SQL Injection"
+[I] happyforms
+[I] woocommerce
+[M]  EDB-ID: 43196 "WordPress Plugin WooCommerce 2.0/3.0 - Directory Traversal"
+[I] Checking for Directory Listing Enabled ...
+Checking for Directory Listing Enabled ...
+[v] Checking directory listing: 
+[v] Checking directory listing: /.git
+[v] Checking directory listing: /.git/branches
+[v] Checking directory listing: /.git/hooks
+[v] Checking directory listing: /.git/info
+[v] Checking directory listing: /.git/logs
+[v] Checking directory listing: /.git/objects
+[v] Checking directory listing: /.git/refs
+[v] Checking directory listing: /wp-admin
+[v] Checking directory listing: /wp-admin/css
+[v] Checking directory listing: /wp-admin/images
+[v] Checking directory listing: /wp-admin/includes
+[v] Checking directory listing: /wp-admin/js
+[v] Checking directory listing: /wp-admin/maint
+[v] Checking directory listing: /wp-admin/network
+[v] Checking directory listing: /wp-admin/user
+[v] Checking directory listing: /wp-content
+[v] Checking directory listing: /wp-content/plugins
+[v] Checking directory listing: /wp-content/themes
+[v] Checking directory listing: /wp-includes
+[v] Checking directory listing: /wp-includes/ID3
+[v] Checking directory listing: /wp-includes/IXR
+[v] Checking directory listing: /wp-includes/PHPMailer
+[v] Checking directory listing: /wp-includes/Requests
+[v] Checking directory listing: /wp-includes/SimplePie
+[v] Checking directory listing: /wp-includes/Text
+[v] Checking directory listing: /wp-includes/assets
+[v] Checking directory listing: /wp-includes/block-patterns
+[v] Checking directory listing: /wp-includes/block-supports
+[v] Checking directory listing: /wp-includes/blocks
+[v] Checking directory listing: /wp-includes/certificates
+[v] Checking directory listing: /wp-includes/css
+[v] Checking directory listing: /wp-includes/customize
+[v] Checking directory listing: /wp-includes/fonts
+[v] Checking directory listing: /wp-includes/images
+[v] Checking directory listing: /wp-includes/js
+[v] Checking directory listing: /wp-includes/pomo
+[v] Checking directory listing: /wp-includes/random_compat
+[v] Checking directory listing: /wp-includes/rest-api
+[v] Checking directory listing: /wp-includes/sitemaps
+[v] Checking directory listing: /wp-includes/sodium_compat
+[v] Checking directory listing: /wp-includes/theme-compat
+[v] Checking directory listing: /wp-includes/widgets
+[v] Checking directory listing: /wp-content/themes/storefront
+[v] Checking directory listing: /wp-content/plugins/.
+[v] Checking directory listing: /wp-content/plugins/elementor
+[v] Checking directory listing: /wp-content/plugins/feed
+[v] Checking directory listing: /wp-content/plugins/happyforms
+[v] Checking directory listing: /wp-content/plugins/woocommerce
+[-] Date & Time: 13/04/2021 10:30:52
+[-] Completed in: 0:10:53
+[-] Output File Saved in: www.medicalsupermarket.my.txt
