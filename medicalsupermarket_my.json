@@ -1,0 +1,62 @@
+[
+    [
+        "countLow",
+        2
+    ],
+    [
+        "countMed",
+        6
+    ],
+    [
+        "countHigh",
+        0
+    ],
+    [
+        "countTotal",
+        8
+    ],
+    [
+        "Low-vulnerability",
+        [
+            "X-Frame-Options: Not Enforced",
+            "Robots.txt Found: https://www.medicalsupermarket.my/robots.txt"
+        ]
+    ],
+    [
+        "Medium-vulnerability",
+        [
+            "sunshinegeekmedical",
+            "XML-RPC services are enabled",
+            "Website vulnerable to XML-RPC Brute Force Vulnerability",
+            "EDB-ID: 37753 \"WordPress Plugin Simple Image Manipulator 1.0 - Arbitrary File Download\"",
+            "EDB-ID: 38624 \"WordPress Plugin WP Feed - 'nid' SQL Injection\"",
+            "EDB-ID: 43196 \"WordPress Plugin WooCommerce 2.0/3.0 - Directory Traversal\""
+        ]
+    ],
+    [
+        "High-vulnerability",
+        []
+    ],
+    [
+        "Cms-info",
+        [
+            "Threads: 5",
+            "Server: nginx",
+            "X-Powered-By: PHP/7.3.27",
+            "Strict-Transport-Security: Not Enforced",
+            "X-Content-Security-Policy: Not Enforced",
+            "X-Content-Type-Options: Not Enforced",
+            "CMS Detection: WordPress",
+            "Wordpress Version: 5.4.4",
+            "Wordpress Theme: storefront",
+            "Autocomplete Off Not Found: https://www.medicalsupermarket.my/wp-login.php",
+            "https://www.medicalsupermarket.my/wp-includes/ID3/license.commercial.txt",
+            ".",
+            "elementor",
+            "feed",
+            "happyforms",
+            "woocommerce",
+            "Checking for Directory Listing Enabled ..."
+        ]
+    ]
+]
